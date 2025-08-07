@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub ,FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import bannerimg from '../../../public/bannerimg.png';
 import Image from "next/image";
 
@@ -18,27 +18,38 @@ const Banner = () => {
 
                         {/* Social Icons */}
                         <div className="flex justify-left gap-6 text-3xl coursor-pointer">
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
                             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
 
                         </div>
-                        <div className="cv">
-                            <a className="inline-block bg-black text-white px-6 py-3 mt-15 rounded-lg hover:bg-amber-700 transition" href="">Download CV</a>
+
+
+
+
+                        <div className="mt-8">
+                            <button className="bg-amber-700 text-black font-semibold px-6 py-3 rounded-full flex items-center gap-2 hover:bg-yellow-300 transition">
+                                DOWNLOAD RESUME
+                                <span className="text-xl">⬇️</span>
+                            </button>
                         </div>
+
+
+
+
 
                     </div>
 
                 </div>
 
                 {/* Image area */}
-                  <div className="">
+                <div className="">
 
-                  </div>
-               
-               
+                </div>
+
+
 
 
             </div>
