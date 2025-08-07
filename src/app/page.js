@@ -9,6 +9,7 @@ export default function Home() {
     <Header/>
     <Banner/>
     <About/>
+    <Image/>
    </div>
    
   );

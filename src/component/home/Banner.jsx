@@ -1,12 +1,13 @@
 import React from 'react'
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub ,FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import bannerimg from '../../../public/bannerimg.png';
+import Image from "next/image";
 
 
 
 const Banner = () => {
     return (
-        <section className="py-4 mt-0 bg-fuchsia-50">
+        <section className="py-30 mt-0 bg-fuchsia-50">
             <div className="container mx-auto px-6">
                 <div className="carousel-left">
                     <div className="sm:flex-col space-between">
@@ -17,6 +18,7 @@ const Banner = () => {
 
                         {/* Social Icons */}
                         <div className="flex justify-left gap-6 text-3xl coursor-pointer">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
                             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
                             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
@@ -32,22 +34,11 @@ const Banner = () => {
                 </div>
 
                 {/* Image area */}
+                  <div className="">
 
-                <div className="carousel-right flex justify-center relative ">
-                    <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
-                        <div className="sm:flex-col ">
-                            <div classname="md:w-1/2 mt- md:mt-0 flex justify-center ">
-                                <img src="bannerimg.png" alt="Morium Akter" className="" />
-                                {/*                                 
-                                <Image className="rounded-full border8 border-orange-500 shadow-lg" scr={bannerimg} alt="" width={7} height={8} /> */}
-
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
+                  </div>
+               
+               
 
 
             </div>
