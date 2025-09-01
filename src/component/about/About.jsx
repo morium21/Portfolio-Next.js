@@ -11,7 +11,7 @@ const About = () => {
                 <div className="flex-1">
                     <div className="rounded-xl overflow-hidden shadow-lg">
                         <Image
-                            src="" 
+                            src="/image2.png"
                             alt="Profile"
                             width={500}
                             height={500}
@@ -20,8 +20,18 @@ const About = () => {
                     </div>
                 </div>
 
+                {/* Right Side - Text area */}
+                <div className="flex-1">
+                    <p className="text-amber-700 font-semibold mb-3 text-2xl">I'm a Developer</p>
+                    <h1 className="text-3xl md:text-4xl text-white font-bold mb-4">
+                        I Develop Website That Help People
+                    </h1>
+
+
+                </div>
+
             </div>
- 
+
         </section>
     )
 }
