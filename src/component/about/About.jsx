@@ -24,10 +24,23 @@ const About = () => {
                 <div className="flex-1">
                     <p className="text-amber-700 font-semibold mb-3 text-2xl">I'm a Developer</p>
                     <h1 className="text-3xl md:text-4xl text-white font-bold mb-4">
-                        I Develop Website That Help People
+                      I Build Websites That Inspire and Engage
                     </h1>
-
-
+                    <p className="text-gray-400 mb-4">
+                        I am a frontend developer skilled in building responsive, optimized
+                        websites with HTML, CSS, and JavaScript. I excel in framework like
+                        React.js, ensuring dynamic and scalable application.
+                    </p>
+                    <p className="text-gray-400 mb-4">
+                        I prioritize both design and performance, collaborating effectively
+                        with designers and back-end developers to deliver seamless user
+                        experiences. Proficient in version control (Git) and using tools like
+                        Webpack, I stay updated with industry trends to provide innovative
+                        solutions.
+                    </p>
+                    <button className="-fuchsia-300 hover:bg-[#1C1C1C] text-white px-6 py-3 rounded-md font-semibold shadow-md border-4 border-amber-700">
+                        View Portfolio
+                    </button>
                 </div>
 
             </div>
