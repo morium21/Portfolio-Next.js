@@ -38,10 +38,11 @@ const About = () => {
                         Webpack, I stay updated with industry trends to provide innovative
                         solutions.
                     </p>
-                    <button className="-fuchsia-300 hover:bg-[#1C1C1C] text-white px-6 py-3 rounded-md font-semibold shadow-md border-4 border-amber-700">
+                    <button className="bg-fuchsia-300 hover:bg-[#1C1C1C] text-white px-6 py-3 rounded-md font-semibold shadow-md border-4 border-amber-700">
                         View Portfolio
                     </button>
                 </div>
+
 
             </div>
 

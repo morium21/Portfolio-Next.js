@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Banner() {
     return (
-        <section className="bg- bg-fuchsia-100 text-black w-full min-h-screen flex items-center justify-center px-6">
+        <section className="bg-fuchsia-100 text-black w-full min-h-screen flex items-center justify-center px-6">
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
                 {/* Left side */}
@@ -29,16 +29,16 @@ export default function Banner() {
 
                     {/* Social Icons */}
                     <div className="flex space-x-4 pt-4">
-                        <a href="#" className="p-3 border-2 border-amber-700 rounded-full hover:bg-amber-500 hover:text-white transition">
+                        <a href="#" className="p-3 border-2 border-amber-700 rounded-full hover:bg-amber-700 hover:text-white transition">
                             <FaGithub />
                         </a>
-                        <a href="#" className="p-3 border-2 border-amber-700 rounded-full hover:bg-amber-500 hover:text-white transition">
+                        <a href="#" className="p-3 border-2 border-amber-700 rounded-full hover:bg-amber-700 hover:text-white transition">
                             <FaLinkedin />
                         </a>
-                        <a href="#" className="p-3 border-2 border-amber-700 rounded-full hover:bg-amber-500 hover:text-white transition">
+                        <a href="#" className="p-3 border-2 border-amber-700 rounded-full hover:bg-amber-700 hover:text-white transition">
                             <FaFacebook />
                         </a>
-                        <a href="#" className="p-3 border-2 border-amber-700 rounded-full hover:bg-amber-500 hover:text-white transition">
+                        <a href="#" className="p-3 border-2 border-amber-700 rounded-full hover:bg-amber-700 hover:text-white transition">
                             <FaInstagram />
                         </a>
                     </div>

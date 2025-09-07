@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "@/component/home/Header";
 import Banner from "@/component/home/Banner";
 import About from "@/component/about/About";
+import StatsSection from "@/component/about/StatsSection";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <Header/>
     <Banner/>
     <About/>
+    <StatsSection/>
   </div>
   );
 }
