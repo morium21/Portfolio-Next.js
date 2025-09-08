@@ -5,7 +5,7 @@ const StatsSection = () => {
     { number: "15+", label: "Project Done" },
     { number: "10+", label: "Open Source Pojects" },
     { number: "100K", label: "Lines of Code" },
-     
+
 
   ];
   return (
@@ -17,15 +17,11 @@ const StatsSection = () => {
               <span className="text-5xl font-bold text-amber-700 mr-2">{stat.number}</span>
               <span className="text-lg font-semibold text-black">{stat.label}</span>
 
-              </div>
-
-          
-          
-
+            </div>
           ))}
 
-            </div>
-         </div>
+        </div>
+      </div>
 
     </section>
   )

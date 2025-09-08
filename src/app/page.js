@@ -3,6 +3,7 @@ import Header from "@/component/home/Header";
 import Banner from "@/component/home/Banner";
 import About from "@/component/about/About";
 import StatsSection from "@/component/about/StatsSection";
+import Skills from "@/component/skills/Skills";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <Banner/>
     <About/>
     <StatsSection/>
+    <Skills/>
   </div>
   );
 }
