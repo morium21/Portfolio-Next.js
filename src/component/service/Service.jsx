@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaPaintBrush, FaLaptopCode   } from 'react-icons/fa'
+import { FaEnvelope, FaPaintBrush, FaLaptopCode, FaBookOpen, FaTools, FaShoppingCart } from 'react-icons/fa'
 
 const Service = () => {
   return (
@@ -36,7 +36,7 @@ const Service = () => {
             </p>
           </div>
 
-           {/* Card 3 */}
+          {/* Card 3 */}
           <div className="border border-amber-700 rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
             <FaLaptopCode className="text-6xl mx-auto mb-4 text-amber-700" />
             <h3 className="text-xl font-semibold mb-3">Web Development</h3>
@@ -47,12 +47,35 @@ const Service = () => {
             </p>
           </div>
 
+          {/* Card 4 */}
+          <div className="border border-amber-700 rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
+            <FaBookOpen className="text-6xl mx-auto mb-4 text-amber-700" />
+            <h3 className="text-xl font-semibold mb-3">Fast Landing Page</h3>
+            <p className="text-gray-300 text-sm">
+              Create high-performing, responsive landing pages that load quickly
+              and boost conversions, ensuring a smooth user experience.
+            </p>
+          </div>
 
+          {/* Card 5 */}
+          <div className="border border-amber-700 rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
+            <FaTools className="text-6xl mx-auto mb-4 text-amber-700" />
+            <h3 className="text-xl font-semibold mb-3">Web Customization</h3>
+            <p className="text-gray-300 text-sm">
+              I provide professional web customization services to make your website
+              fully responsive, modern, and user-friendly according to your needs.
+            </p>
+          </div>
 
-
-
-
-
+          {/* Card 6 */}
+          <div className="border border-amber-700 rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
+            <FaShoppingCart className="text-6xl mx-auto mb-4 text-amber-700" />
+            <h3 className="text-xl font-semibold mb-3">E-Commerce Website</h3>
+            <p className="text-gray-300 text-sm">
+              I develop secure and scalable E-Commerce websites with smooth checkout,
+              product management, and payment integration to boost your online sales.
+            </p>
+          </div>
 
 
         </div>
