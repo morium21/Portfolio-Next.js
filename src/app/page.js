@@ -5,6 +5,7 @@ import About from "@/component/about/About";
 import StatsSection from "@/component/about/StatsSection";
 import Skills from "@/component/skills/Skills";
 import Service from "@/component/service/Service";
+import Contact from "@/component/contact/Contact";
 export default function Home() {
   return (
   <div>
@@ -14,6 +15,7 @@ export default function Home() {
     <StatsSection/>
     <Skills/>
     <Service/>
+    <Contact/>
   </div>
   );
 }

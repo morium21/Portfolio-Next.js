@@ -11,7 +11,7 @@ export default function Banner() {
                 {/* Left side */}
                 <div className="space-y-6">
                     <h1 className="text-4xl md:text-6xl  font-bold leading-tight">
-                        Morium Akter
+                        Hello!
                     </h1>
                     <h2 className="text-2xl md:text-3xl font-semibold">
                         I'm a <span className="text-amber-700">Front-End Developer</span>
