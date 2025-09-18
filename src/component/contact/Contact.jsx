@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaEnvelope } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -18,9 +19,27 @@ const Contact = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-4">DON'T BE SHY!</h3>
                 <p className="text-gray-300 mb-6">
-                  Feel free to reach out anytime for ideas, projects, or collaboration.
-
+                  Feel free to reach out anytime for ideas, projects, 
+                  or collaboration. Whether you have a small question 
+                  or a big project, I’m always happy to connect
                 </p>
+
+                {/* Mail */}
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="bg-amber-700 p-3 rounded-lg">
+                    <FaEnvelope className="text-black text-xl"/>
+                  </div>
+                  <div>
+                    <p className="font-semibold">MAIL ME</p>
+                    <a href="mailto:moriumakter912003@gmail.com"
+                    className="text-amber-700 underline"
+                    >
+
+                      moriumakter912003@gmail.com
+                    </a>
+                  </div>
+
+                </div>
               </div>
 
              </div>
