@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope } from 'react-icons/fa'
+import { FaEnvelope, FaPhone } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -38,11 +38,27 @@ const Contact = () => {
                       moriumakter912003@gmail.com
                     </a>
                   </div>
+                  </div>
 
-                </div>
-              </div>
 
-             </div>
+                  {/* Phone */}
+                  <div className="flex items-center gap-4 mb-6j                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+                    <div className="bg-amber-700 p-3 rounded-lg">
+                      <FaPhone className="text-black text-xl" />
+                   </div>
+                  </div>
+                   <div>
+                      <p className="font-semibold">CALL ME</p>
+                     <a href="tel:+8801605551692"
+                     className="text-amber-700 underline"
+                     >
+
+                        +8801605-551692
+
+                     </a>
+                   </div>
+                  </div>
+                 </div>
 
         </div>
     </section>
