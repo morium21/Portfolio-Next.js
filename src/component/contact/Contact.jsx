@@ -53,7 +53,7 @@ const Contact = () => {
                      className="text-amber-700 underline"
                      >
 
-                        +8801605-551692
+                        +8801967-005476
 
                      </a>
                    </div>
