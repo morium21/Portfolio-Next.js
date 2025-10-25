@@ -17,12 +17,12 @@ const skills = [
         img: "/.png",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
     },
-        {
-        name: "",
+    {
+        name: "Tailwind CSS",
         img: "/.png",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
     },
-   
+
 
 
 
