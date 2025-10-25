@@ -4,7 +4,7 @@ import Image from 'next/image'
 const skills = [
     {
         name: "HTML 5",
-        img: "/image1.png",
+        img: "/HTML5.png",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
     },
     {

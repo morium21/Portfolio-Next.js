@@ -23,7 +23,7 @@ export default function Banner() {
                     </p>
 
                     {/* Button */}
-                    <button className="px-6 py-3 bg-black hover:bg-amber-700 text-white font-semibold rounded-full shadow-lg transition">
+                    <button className="px-6 py-3 bg-black hover:bg-amber-700 text-amber-700 hover:text-white font-semibold rounded-full shadow-lg transition">
                         Download CV
                     </button>
 

@@ -49,7 +49,7 @@ const Contact = () => {
                   </div>
                    <div>
                       <p className="font-semibold">CALL ME</p>
-                     <a href="tel:+8801605551692"
+                     <a href="tel:+8801967-005476"
                      className="text-amber-700 underline"
                      >
 
@@ -59,6 +59,10 @@ const Contact = () => {
                    </div>
                   </div>
                  </div>
+
+                 {/* Right Form */}
+          
+
 
         </div>
     </section>
