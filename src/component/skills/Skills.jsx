@@ -1,12 +1,13 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
 
 const skills = [
-    {
-        name: "HTML 5",
+       {
+        name: "HTML5",
         img: "/.png",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
     },
+  
     {
         name: "CSS 3",
         img: "/.png",
@@ -18,11 +19,11 @@ const skills = [
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
     },
     {
-        name: "Tailwind CSS",
+        name: "Bootstrap",
         img: "/.png",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
     },
-
+   
 
 
 
@@ -31,7 +32,7 @@ const skills = [
 
 const Skills = () => {
     return (
-        <section className="bg-[#1C1C1C]  taxt-white py-12">
+        <section className="bg-[#1C1C1C]  taxt-white py-20">
             <div className="max-w-6xl mx-auto px-4 text-center">
                 {/* Heading */}
                 <h2 className="text-6xl font-eaxtrabold text-center mb-12 relative inline-block">
@@ -45,17 +46,17 @@ const Skills = () => {
                     {skills.map((skill, index) => (
                         <div
                             key={index}
-                            className="text center flex flex-col items-center">
-                            <div className="w-20 h-20 mb-4 flex items-center justify-center bg-white rounded-full shadow-md">
+                            className="flex items-center gap-3 bg-[#111827] px-6 py-4 rounded-2xl shadow-md hover:scale-105 transition-transform">
+                            
                                 <Image
-                                    scr={skill.index}
+                                    scr={skill.icon}
                                     alt={skill.name}
-                                    width={50}
-                                    height={50} />
-                            </div>
-                            <h3 className="text-lg text-amber-700 font-semibold">{skill.name}</h3>
-                            <p className="text-gray-500 text-sm mt-2">{skill.desc}</p>
-                        </div>
+                                    width={40}
+                                    height={40} 
+                                   
+                                    />
+                                    <span className="text-lg font-semibold">{skill.name}</span>
+                           </div>
 
                     ))}
 
@@ -68,3 +69,7 @@ const Skills = () => {
 }
 
 export default Skills
+
+
+
+
