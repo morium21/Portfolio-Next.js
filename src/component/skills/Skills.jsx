@@ -2,12 +2,11 @@ import React from 'react'
 import Image from 'next/image';
 
 const skills = [
-       {
-        name: "HTML5",
-        img: "/.png",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
-    },
-  
+   {
+    name: "HTML5",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+
     {
         name: "CSS 3",
         img: "/.png",
@@ -23,7 +22,7 @@ const skills = [
         img: "/.png",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
     },
-   
+
 
 
 
@@ -47,16 +46,17 @@ const Skills = () => {
                         <div
                             key={index}
                             className="flex items-center gap-3 bg-[#111827] px-6 py-4 rounded-2xl shadow-md hover:scale-105 transition-transform">
-                            
-                                <Image
-                                    scr={skill.icon}
-                                    alt={skill.name}
-                                    width={40}
-                                    height={40} 
-                                   
-                                    />
-                                    <span className="text-lg font-semibold">{skill.name}</span>
-                           </div>
+
+                            <Image
+                                scr={skill.icon}
+                                alt={skill.name}
+                                width={40}
+                                height={40}
+                                className={skill.invert ? "invert" : ""}
+
+                            />
+                            <span className="text-lg font-semibold">{skill.name}</span>
+                        </div>
 
                     ))}
 
